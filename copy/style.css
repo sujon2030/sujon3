@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerMenu{
+    margin-top: 50px;
+    
+}
+
+.boxGrid{
+    text-align: center;
+}
+
+
+
+.headingText p{
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 45px;
+
+}
+
+.headingText p::before{
+    position: absolute;
+    content: "";
+    top: -28px;
+    left: 533px;
+    height: 2px;
+    margin: 0 auto;
+    width: 40px;
+    background-color: #295ACC;;
+}
+
+.headingText h4{
+    text-transform: uppercase;
+    color: #295ACC;   
+}
+
+.headingText h1{
+    margin-bottom: 30px;
+}
+
+
+
+/* boxGrid Start */
+
+.signleService{
+    
+}
+
+
+.signleService h6{
+    margin: 35px 0;
+} 
+.signleService h2{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.signleService h2::after{
+    position: absolute;
+    content: "";
+    top: 62px;
+    left: 135px;
+    height: 2px;
+    margin: 0 auto;
+    width: 59px;
+    background-color: #dce0eb;
+
+}
+.signleService p{
+    margin: 40px;
+    line-height: 30px;
+}
+
+
+.signleService:hover{
+    background-color: #4371dc;
+    color: white;
+}
+
+.signleService:hover .ser-btn{
+    background-color: #ddd;
+}
+.ser-btn {
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+    padding: 10px 13px;
+}
+.ser-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    height: 100%;
+    width: 0;
+    background: #4371dc;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    z-index: -1;
+    transition: .4s;
+}
+.ser-btn:hover::after{
+    width: 102%;
+}
+
+/* BoxGrid End */
+
+
+
+/* heroSection */
+.heroSection{
+    background-image: url("https://i.ibb.co/yY8vHV9/free-bg.jpg");
+    width: 500px 0;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.heroSection::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #011e63a1;
+    opacity: .7;
+    z-index: -1;
+}
+
+.heroText{
+    margin-top: 100px;
+    color: white;
+}
+
+.purcess-btn {
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+    padding: 10px 13px;
+}
+.purcess-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    height: 100%;
+    width: 0;
+    background: #f5f6f9;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    z-index: -1;
+    transition: .4s;
+}
+.purcess-btn:hover::after{
+    width: 102%;
+}
+
+
+
+
+
+
+
+/* .btnses3{
+    background-image: linear-gradient(#1095c1);
+    padding: 30px 0;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.btnses3:hover{
+    background-size: 100% 100%;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+} */
+
+
+
+
+
+
+/* singUpService */
+.SignupSection{
+    padding: 30px 0;
+}
+
+.singup{
+    background-color: #4371dc;
+    padding: 37px 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.singup h2{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.singup h6{
+    margin: 25px 0;
+    line-height: 20px;
+}
+
+.Doyou h4{
+    padding: 30px;
+}
+
+.btnses4{
+    padding: 30px;
+}
